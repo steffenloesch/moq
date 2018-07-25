@@ -126,7 +126,7 @@ Just like in custom stunts, if an a generated stunt becomes outdated, you will a
 
 ### Build Time
 
-We intend to provide built-time stunt code generation for the initial stable release. It will leverage the stunt factory approach, but automatically generate or update stunts in an intermediate folder (i.e. obj\Debug) instead of the user's project.
+We intend to provide build-time stunt code generation for the initial stable release. It will leverage the stunt factory approach, but automatically generate or update stunts in an intermediate folder (i.e. obj\Debug) instead of the user's project.
 
 ## Extensibility
 
