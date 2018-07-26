@@ -7,7 +7,7 @@ namespace Moq
     /// <summary>
     /// Instantiates mocks for the specified types.
     /// </summary>
-    partial class Mock
+    internal partial class Mock
     {
         /// <summary>
         /// Creates the mock instance by using the specified types to 
