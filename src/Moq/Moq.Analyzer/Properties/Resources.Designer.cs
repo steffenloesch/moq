@@ -124,6 +124,33 @@ namespace Moq.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The Moq API used is not supported by this version of Moq any more..
+        /// </summary>
+        internal static string ObsoleteApiAnalyzer_Description {
+            get {
+                return ResourceManager.GetString("ObsoleteApiAnalyzer_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Moq API usage &apos;{0}&apos; is obsolete..
+        /// </summary>
+        internal static string ObsoleteApiAnalyzer_Message {
+            get {
+                return ResourceManager.GetString("ObsoleteApiAnalyzer_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Obsolete Moq API.
+        /// </summary>
+        internal static string ObsoleteApiAnalyzer_Title {
+            get {
+                return ResourceManager.GetString("ObsoleteApiAnalyzer_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Existing generated mock &apos;{0}&apos; is outdated..
         /// </summary>
         internal static string OutdatedMockAnalyzer_Description {

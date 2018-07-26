@@ -12,6 +12,8 @@ namespace Moq
     public class ApiPortAnalyzer : DiagnosticAnalyzer
     {
         public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => throw new NotImplementedException();
+        public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics
+            => ImmutableArray.Create(MockDiagnostics.ObsoleteApi);
 
         public override void Initialize(AnalysisContext context)
         {
